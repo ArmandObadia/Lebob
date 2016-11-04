@@ -604,7 +604,7 @@ img
 	display: flex;
 	background-color: #2eb8b8;
 	border: 2px solid #2eb8b8;
-	padding: 0em 1em 0em 1em;
+	padding: 1.2em 1.2em 1.2em 1.2em;
 	min-width: 370px;
 	margin-bottom: 10px;
 
@@ -614,16 +614,12 @@ img
 {
 	height: 350px;
 	width: 350px;
-	padding-top: 25px;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-bottom: 25px;
 }
 
 #estimation .info
 {
 	margin-left: 1em;
-	margin-bottom: 2.5em;
+	margin-bottom: 1em;
 }
 
 #estimation h1
@@ -691,7 +687,7 @@ img
 	background-color: #ffcc00;
 	text-align: center;
 	border-radius: 0.2em 0.2em 0.2em 0.2em;
-  	padding: 9px 9px 9px 9px;
+  	padding: 8px 8px 8px 8px;
   	min-width: 180px;
   	height: 25px;
   	margin-top: 1.5em;
@@ -773,7 +769,6 @@ img
 
 
 
-
 /* Description */
 
 #description
@@ -826,6 +821,9 @@ img
 
 #formulaire
 {
+	min-height: calc(100vh - 100px);
+	min-width: 100%;
+	margin-bottom: 0px;
 	height: auto;
 	display: flex;
 	align-items: baseline;
@@ -833,6 +831,7 @@ img
 	justify-content: center;
 	padding: 2em;
 	color: #424242;
+	background-color: #F8F8F8;
 }
 
 #formulaire h2
@@ -850,7 +849,10 @@ img
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 1em;
+	padding: 2em;
+	border-right: 1px solid #E8E8E8;
+	background-color: #F5F5F5 ;
+
 }
 
 
@@ -878,7 +880,7 @@ img
 	align-items: baseline;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 1em;
+	padding: 2em;
 }
 
 #formulaire h1
@@ -935,6 +937,7 @@ img
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 0px;
 }
 
 
